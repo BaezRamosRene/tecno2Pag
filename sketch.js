@@ -40,7 +40,7 @@ function preload() {
   }
 
   for (let i = 1; i <= numImagenesFactura; i++) {
-    let path = 'grupofacturas/Facturas1.png'; 
+    let path = 'grupoFacturas/Facturas + i + '.png'; 
     let imagen = loadImage(path);
     imagenesFactura.push(imagen);
   }
